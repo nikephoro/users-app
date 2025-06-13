@@ -152,7 +152,7 @@ exports.options = {
             "name":"username",
             "in":"path",
             "required":true,
-            "description": "Username of user that we want to update",
+            "description": "Username of user that can update",
             "type":"string"
           }
         ],
@@ -176,13 +176,13 @@ exports.options = {
                   }
                 },
                 "required": ["email"]
-              }  
+              }
             }
           }
         },
         "responses":{
           "200":{
-            "description": "Update user"
+            "descripiton": "Update user"
           }
         }
       },
@@ -245,7 +245,7 @@ exports.options = {
         ],
         "responses":{
           "200": {
-            "description": "User and Products",
+            "description": "User ans Products",
             "schema":{
               "$ref": "#/components/schemas/User"
             }
